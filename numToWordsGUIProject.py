@@ -31,7 +31,7 @@ def number_to_words(digit):
             else:
                 return (roots[int(digit[0])]+ " hundred and "+roots[int(digit[1]+'0')])
                
-        return ("Try again")
+        return ("Try again; enter number from 1-999")
 
         return number_to_words(digit)
         
